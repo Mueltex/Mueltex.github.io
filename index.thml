@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torneo de Age of Empires II</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1, h2 { color: #2c3e50; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>Torneo de Age of Empires II: Definitive Edition</h1>
+    
+    <h2>Formato del Torneo</h2>
+    
+    <h3>Fase de Todos contra Todos (Round Robin)</h3>
+    <p>Cada jugador se enfrenta una vez contra cada uno de los otros, en un total de 5 rondas:</p>
+    <ul>
+        <li><strong>Ronda 1 (Arabia):</strong>
+            <ul>
+                <li>sanyo vs cris_cricri</li>
+                <li>mueltex vs lord ivan</li>
+                <li>hectorhfm vs javivi</li>
+            </ul>
+        </li>
+        <li><strong>Ronda 2 (Gold Rush):</strong>
+            <ul>
+                <li>sanyo vs mueltex</li>
+                <li>cris_cricri vs hectorhfm</li>
+                <li>lord ivan vs javivi</li>
+            </ul>
+        </li>
+        <li><strong>Ronda 3 (Enclosed):</strong>
+            <ul>
+                <li>sanyo vs lord ivan</li>
+                <li>cris_cricri vs javivi</li>
+                <li>mueltex vs hectorhfm</li>
+            </ul>
+        </li>
+        <li><strong>Ronda 4 (Arabia):</strong>
+            <ul>
+                <li>sanyo vs hectorhfm</li>
+                <li>cris_cricri vs lord ivan</li>
+                <li>mueltex vs javivi</li>
+            </ul>
+        </li>
+        <li><strong>Ronda 5 (Gold Rush):</strong>
+            <ul>
+                <li>sanyo vs javivi</li>
+                <li>cris_cricri vs mueltex</li>
+                <li>lord ivan vs hectorhfm</li>
+            </ul>
+        </li>
+    </ul>
+    
+    <h3>Fase de Eliminación Directa (Knockout Stage)</h3>
+    <p>Semifinales (Bo3):</p>
+    <ul>
+        <li>1º clasificado vs 6º clasificado</li>
+        <li>2º clasificado vs 5º clasificado</li>
+        <li>3º clasificado vs 4º clasificado</li>
+    </ul>
+    <p><strong>Mapas para Semifinales:</strong></p>
+    <ul>
+        <li>Partida 1: Arabia</li>
+        <li>Partida 2: Gold Rush</li>
+        <li>Partida 3: Enclosed</li>
+    </ul>
+    <p>Finales (Bo3):</p>
+    <ul>
+        <li>Ganadores de las semifinales</li>
+    </ul>
+    <p><strong>Mapas para la Final:</strong></p>
+    <ul>
+        <li>Partida 1: Enclosed</li>
+        <li>Partida 2: Arabia</li>
+        <li>Partida 3: Gold Rush</li>
+    </ul>
+    
+    <h2>Reglas del Torneo</h2>
+    <ul>
+        <li><strong>Versión del Juego:</strong> Age of Empires II: Definitive Edition</li>
+        <li><strong>Mapas:</strong> Arabia, Gold Rush, Enclosed</li>
+        <li><strong>Civilizaciones:</strong> Solo las del juego base (no expansiones)</li>
+        <li><strong>Condiciones de Victoria:</strong> Conquista</li>
+        <li><strong>Velocidad del Juego:</strong> Normal</li>
+        <li><strong>Población Máxima:</strong> 200</li>
+        <li><strong>Recursos Iniciales:</strong> Estándar</li>
+        <li><strong>Exploración del Mapa:</strong> Estándar</li>
+        <li><strong>Revelación del Mapa:</strong> Estándar</li>
+    </ul>
+    
+    <h2>Organización del Torneo</h2>
+    <ul>
+        <li><strong>Registro de Jugadores:</strong> Recopilar detalles de contacto.</li>
+        <li><strong>Calendario de Partidas:</strong> Publicar el cronograma de rondas y eliminatorias.</li>
+        <li><strong>Resultados y Clasificación:</strong> Mantener un registro de los resultados y actualizar la clasificación.</li>
+        <li><strong>Comunicación:</strong> Utilizar una plataforma como Discord para la coordinación.</li>
+    </ul>
+    
+    <h2>Calendario Ejemplo</h2>
+    <ul>
+        <li><strong>Día 1:</strong> Rondas
