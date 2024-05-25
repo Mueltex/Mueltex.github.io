@@ -3,105 +3,238 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Torneo de Age of Empires II</title>
+    
     <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        h1, h2 { color: #2c3e50; }
-        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; display: flex; }
+        title { text-align: center }
+        h1{ color: #2c3e50; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; background-color: #fff; }
         th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
         th { background-color: #f2f2f2; }
+        ul { list-style-type: none; padding: 0; }
+        li { margin-bottom: 5px; }
+        .content { margin: 20px; flex-grow: 1; }
+        .results { margin: 10px 0; }
+        input[type="text"] { width: 100%; box-sizing: border-box; padding: 5px; }
+        .sidebar {
+            width: 200px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            height: 100%;
+            padding: 20px;
+            overflow: auto;
+        }
+        .main-content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+        }
+        .sidebar a:hover {
+            background-color: #575757;
+        }
+        .icon {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .icon img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        .icon h1 {
+            margin: 0;
+            font-size: 1.5em;
+            text-align: center;
+        }
     </style>
+    <title>Torneo de Age of Empires II</title>
 </head>
 <body>
-    <h1>Torneo de Age of Empires II: Definitive Edition</h1>
-    
-    <h2>Formato del Torneo</h2>
-    
-    <h3>Fase de Todos contra Todos (Round Robin)</h3>
-    <p>Cada jugador se enfrenta una vez contra cada uno de los otros, en un total de 5 rondas:</p>
-    <ul>
-        <li><strong>Ronda 1 (Arabia):</strong>
-            <ul>
-                <li>sanyo vs cris_cricri</li>
-                <li>mueltex vs lord ivan</li>
-                <li>hectorhfm vs javivi</li>
-            </ul>
-        </li>
-        <li><strong>Ronda 2 (Gold Rush):</strong>
-            <ul>
-                <li>sanyo vs mueltex</li>
-                <li>cris_cricri vs hectorhfm</li>
-                <li>lord ivan vs javivi</li>
-            </ul>
-        </li>
-        <li><strong>Ronda 3 (Enclosed):</strong>
-            <ul>
-                <li>sanyo vs lord ivan</li>
-                <li>cris_cricri vs javivi</li>
-                <li>mueltex vs hectorhfm</li>
-            </ul>
-        </li>
-        <li><strong>Ronda 4 (Arabia):</strong>
-            <ul>
-                <li>sanyo vs hectorhfm</li>
-                <li>cris_cricri vs lord ivan</li>
-                <li>mueltex vs javivi</li>
-            </ul>
-        </li>
-        <li><strong>Ronda 5 (Gold Rush):</strong>
-            <ul>
-                <li>sanyo vs javivi</li>
-                <li>cris_cricri vs mueltex</li>
-                <li>lord ivan vs hectorhfm</li>
-            </ul>
-        </li>
-    </ul>
-    
-    <h3>Fase de Eliminación Directa (Knockout Stage)</h3>
-    <p>Semifinales (Bo3):</p>
-    <ul>
-        <li>1º clasificado vs 6º clasificado</li>
-        <li>2º clasificado vs 5º clasificado</li>
-        <li>3º clasificado vs 4º clasificado</li>
-    </ul>
-    <p><strong>Mapas para Semifinales:</strong></p>
-    <ul>
-        <li>Partida 1: Arabia</li>
-        <li>Partida 2: Gold Rush</li>
-        <li>Partida 3: Enclosed</li>
-    </ul>
-    <p>Finales (Bo3):</p>
-    <ul>
-        <li>Ganadores de las semifinales</li>
-    </ul>
-    <p><strong>Mapas para la Final:</strong></p>
-    <ul>
-        <li>Partida 1: Enclosed</li>
-        <li>Partida 2: Arabia</li>
-        <li>Partida 3: Gold Rush</li>
-    </ul>
-    
-    <h2>Reglas del Torneo</h2>
-    <ul>
-        <li><strong>Versión del Juego:</strong> Age of Empires II: Definitive Edition</li>
-        <li><strong>Mapas:</strong> Arabia, Gold Rush, Enclosed</li>
-        <li><strong>Civilizaciones:</strong> Solo las del juego base (no expansiones)</li>
-        <li><strong>Condiciones de Victoria:</strong> Conquista</li>
-        <li><strong>Velocidad del Juego:</strong> Normal</li>
-        <li><strong>Población Máxima:</strong> 200</li>
-        <li><strong>Recursos Iniciales:</strong> Estándar</li>
-        <li><strong>Exploración del Mapa:</strong> Estándar</li>
-        <li><strong>Revelación del Mapa:</strong> Estándar</li>
-    </ul>
-    
-    <h2>Organización del Torneo</h2>
-    <ul>
-        <li><strong>Registro de Jugadores:</strong> Recopilar detalles de contacto.</li>
-        <li><strong>Calendario de Partidas:</strong> Publicar el cronograma de rondas y eliminatorias.</li>
-        <li><strong>Resultados y Clasificación:</strong> Mantener un registro de los resultados y actualizar la clasificación.</li>
-        <li><strong>Comunicación:</strong> Utilizar una plataforma como Discord para la coordinación.</li>
-    </ul>
-    
-    <h2>Calendario Ejemplo</h2>
-    <ul>
-        <li><strong>Día 1:</strong> Rondas
+    <div class="sidebar">
+        <div class="icon">
+            <img src="https://cdn2.steamgriddb.com/icon/dfd1e5f05a19b577a89a80f1cc545b7e/32/512x512.png" alt="Age of Empires II: Definitive Edition">
+            <h1></h1>
+        </div>
+        <h2>Índice</h2>
+        <ul>
+            <li><a href="#reglas">📝 Reglas del Torneo</a></li>
+            <li><a href="#formato">⚔️ Formato del Torneo</a></li>
+            <li><a href="https://aoe2cm.net/preset/xdcOb">⚙️ Herramienta pick civs</a></li>
+            
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <h1>Torneo de Age of Empires II: Definitive Edition</h1>
+        
+           <div class="content">
+            <h2 id="reglas">📝 Reglas del Torneo</h2>
+            <ol>
+                <li><strong>Versión del Juego:</strong> Age of Empires II: Definitive Edition</li>
+                <li><strong>Mapas:</strong> Arabia, Fiebre del Oro, Acotado</li>
+                <li><strong>Civilizaciones:</strong> Solo las del juego base (no expansiones)</li>
+                <li><strong>Condiciones de Victoria:</strong> Conquista</li>
+                <li><strong>Velocidad del Juego:</strong> Normal</li>
+                <li><strong>Población Máxima:</strong> 200</li>
+                <li><strong>Recursos Iniciales:</strong> Estándar</li>
+                <li><strong>Exploración del Mapa:</strong> Estándar</li>
+                <li><strong>Revelación del Mapa:</strong> Estándar</li>
+                <li><strong>Grabar Partida:</strong> Todas las partidas deberán jugarse marcando la opción de "Grabar partida" en Ajustes avanzados.</li>
+                <li><strong>Emisión:</strong> La emisión de la partida via Twitch es opcional.</li>
+                <li><strong>Elección de Civilizaciones:</strong> Usar la herramienta de drafts <a href="https://aoe2cm.net/preset/xdcOb" target="_blank">aoe2cm.net</a>. Cuando un jugador gane una ronda con una civilización, no podrá volver a usar esa civilización en ese enfrentamiento (el perdedor podrá repetir si lo desea).</li>
+            </ol>
+        </div>
+        <div class="content">
+            <h2 id="formato">⚔️ Formato del Torneo</h2>
+            <h3>Fase de Todos contra Todos (Round Robin)</h3>
+            <p>Cada jugador se enfrenta una vez contra cada uno de los otros, en un total de 3 rondas:</p>
+
+            <h4>Ronda 1 (Arabia)</h4>
+            <table>
+                <tr>
+                    <th>Enfrentamiento</th>
+                    <th>Resultado</th>
+                    <th>Mapa 1</th>
+                    <th>Mapa 2</th>
+                    <th>Mapa 3</th>
+                </tr>
+                <tr>
+                    <td>sanyo vs cris_cricri</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>mueltex vs javivi</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+
+            <h4>Ronda 2 (Fiebre del Oro)</h4>
+            <table>
+                <tr>
+                    <th>Enfrentamiento</th>
+                    <th>Resultado</th>
+                    <th>Mapa 1</th>
+                    <th>Mapa 2</th>
+                    <th>Mapa 3</th>
+                </tr>
+                <tr>
+                    <td>sanyo vs mueltex</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>cris_cricri vs javivi</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+
+            <h4>Ronda 3 (Acotado)</h4>
+            <table>
+                <tr>
+                    <th>Enfrentamiento</th>
+                    <th>Resultado</th>
+                    <th>Mapa 1</th>
+                    <th>Mapa 2</th>
+                    <th>Mapa 3</th>
+                </tr>
+                <tr>
+                    <td>sanyo vs javivi</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>cris_cricri vs mueltex</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+
+            <h3>Fase de Eliminación Directa (Knockout Stage)</h3>
+            <p>Semifinales (Bo3):</p>
+            <table>
+                <tr>
+                    <th>Enfrentamiento</th>
+                    <th>Resultado</th>
+                    <th>Mapa 1</th>
+                    <th>Mapa 2</th>
+                    <th>Mapa 3</th>
+                </tr>
+                <tr>
+                    <td>1º clasificado vs 4º clasificado</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>2º clasificado vs 3º clasificado</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+
+            <h3>Finales (Bo3)</h3>
+            <table>
+                <tr>
+                    <th>Enfrentamiento</th>
+                    <th>Resultado</th>
+                    <th>Mapa 1</th>
+                    <th>Mapa 2</th>
+                    <th>Mapa 3</th>
+                </tr>
+                <tr>
+                    <td>Ganadores de las semifinales</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+
+            <h3>Enfrentamiento contra hectorhfm (Bo3)</h3>
+            <table>
+                <tr>
+                    <th>Enfrentamiento</th>
+                    <th>Resultado</th>
+                    <th>Mapa 1</th>
+                    <th>Mapa 2</th>
+                    <th>Mapa 3</th>
+                </tr>
+                <tr>
+                    <td>Ganador del torneo vs hectorhfm</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</body>
+</html>
